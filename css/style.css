@@ -1,0 +1,246 @@
+* {
+  font-family: "Museo Sana Cyrl", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background: url("../img/bg (3).png") center center/cover no-repeat;
+}
+.promo__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 90px;
+}
+.promo__header {
+  font-weight: 700;
+  font-size: 42px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 42px;
+}
+.promo__subheader {
+  margin-top: 17px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+.promo__icons {
+  margin-top: 64px;
+  width: 425px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.promo__icon {
+  width: 106px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.promo__icon img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.promo__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  padding-top: 10px;
+}
+.promo__link a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__official {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+.header__official span {
+  display: block;
+  font-size: 18px;
+}
+.header__phone {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+.header__phone:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.header__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.button {
+  width: 153px;
+  height: 32px;
+  background-color: #C70101;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.button__main {
+  margin-top: 67px;
+  width: 300px;
+  height: 50px;
+  font-size: 15px;
+}
+.button_sumbit {
+  width: 100%;
+  height: 58px;
+  font-size: 16px;
+}
+
+.our {
+  min-height: 473px;
+  background-color: #F6F6F6;
+}
+.our__h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 73px;
+  padding-bottom: 65px;
+}
+.our__third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.our__section {
+  width: 273px;
+  text-align: center;
+}
+.our__img {
+  padding-bottom: 30px;
+}
+.our__textone {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+}
+.our__texttwo {
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+}
+.our__texttwo span {
+  color: #FF0000;
+  font-family: "MuseoModerno";
+}
+
+@media (max-width: 991px) {
+  .our__third {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateX(17%);
+            transform: translateX(17%);
+  }
+}
+.consultation {
+  background: url("../img/bg2.png") center center/cover no-repeat;
+  min-height: 680px;
+  padding: 100px 0 92px 0;
+}
+.consultation__descr {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.title_left {
+  color: #fff;
+  text-align: left;
+}
+
+.feed-form {
+  margin-top: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+}
+.feed-form input {
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 15px;
+  border: none;
+  padding: 0 20px;
+  font-weight: 300;
+  font-size: 14px;
+}
+.feed-form input:nth-child(3) {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
